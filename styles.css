@@ -132,3 +132,93 @@ nav {
 }
 
   /* ------------------- Hero css ------------------- */
+
+  /* ------------------- Footer css ------------------- */
+
+.site-footer {
+    background: linear-gradient(to top, rgba(4, 16, 60, 0.9), rgba(2, 7, 20, 0.9));
+    color: white;
+    padding: 5rem 5%;
+    backdrop-filter: blur(5px);
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 3rem;
+}
+  
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+  
+.footer-logo img {
+    width: 50px;
+    filter: drop-shadow(0 0 2px white);
+}
+  
+.footer-logo h4 {
+    font-size: 1.5rem;
+    color: #0066ff;
+}
+  
+.footer-links {
+    display: flex;
+    gap: 3rem;
+}
+  
+.footer-column h5 {
+    color: #0066ff;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+  
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-column ul li {
+    margin-bottom: 0.5rem;
+}
+  
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+.footer-column a:hover {
+    color: #0066ff;
+}
+  
+.footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+  
+@media (max-width: 768px) {
+.footer-content {
+    flex-direction: column;
+    text-align: center;
+}
+  
+.footer-links {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+  
+.footer-logo {
+    justify-content: center;
+    margin-bottom: 2rem;
+ }
+}
