@@ -13,3 +13,50 @@ body {
     position: relative;
     overflow-x: hidden;
 }
+
+/* ------------------- Navbar css ------------------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    z-index: 100;
+    position: fixed;
+    width: 100%;;
+    background: linear-gradient(to bottom, rgba(2, 7, 20, 0.9) 70%, transparent);
+    backdrop-filter: blur(5px);
+  }
+  
+  .logo {
+    width: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    width: 50px;
+    filter: drop-shadow(0 0 2px white);
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    opacity: 1;
+  }
+  
+  /* ------------------- Navbar css ------------------- */
