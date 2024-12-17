@@ -222,3 +222,66 @@ nav {
     margin-bottom: 2rem;
  }
 }
+
+    /* ------------------- Footer css ------------------- */
+    
+    /* ------------------- Team css ------------------- */
+
+.team-section {
+padding: 10rem 5%;
+position: relative;
+background: linear-gradient(to  top, rgba(2, 7, 20, 0.8), rgba(4, 16, 51, 0.8));
+backdrop-filter: blur(5px);
+}
+      
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+      
+.team-member {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+      
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(0, 102, 255, 0.3);
+}
+      
+.team-member img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+      
+.team-member h3 {
+    color: #0066ff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+      
+.team-member p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10rem;
+    color: white;
+    font-weight: 500;
+}
