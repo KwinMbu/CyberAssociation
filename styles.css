@@ -379,6 +379,10 @@ backdrop-filter: blur(5px);
     margin-bottom: 1rem;
     filter: drop-shadow(0 0 2px white);
 }
+
+.contact-card p{
+    color: white;
+}
       
 .contact-card a{
     text-decoration: none;
