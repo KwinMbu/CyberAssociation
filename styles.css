@@ -14,6 +14,42 @@ body {
     overflow-x: hidden;
 }
 
+/*------------------- Animation css ------------------- */
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+} 
+
+@keyframes slideX {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+} 
+  
+@keyframes slideY {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/*------------------- Animation css ------------------- */
+
 /* ------------------- Navbar css ------------------- */
 
 nav {
@@ -126,38 +162,6 @@ nav {
     filter: drop-shadow(0 0 2px white);
 }
 
-@keyframes slide {
-    0% {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-} 
-
-@keyframes slideX {
-    0% {
-        transform: translateX(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-} 
-  
-@keyframes slideY {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
   /* ------------------- Hero css ------------------- */
 
   /* ------------------- Footer css ------------------- */
