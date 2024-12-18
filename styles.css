@@ -291,18 +291,21 @@ backdrop-filter: blur(5px);
     height: 180px;
     border-radius: 50%;
     margin-bottom: 1.5rem;
+    animation: slideX 3s ease-out;
 }
       
 .team-member h3 {
     color: #0066ff;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    animation: slide 3s ease-out;
 }
       
 .team-member p {
     color: rgba(255, 255, 255, 0.8);
     line-height: 1.6;
     font-size: 0.9rem;
+    animation: slideY 3s ease-in;
 }
 
 .section-title {
@@ -311,6 +314,7 @@ backdrop-filter: blur(5px);
     margin-bottom: 10rem;
     color: white;
     font-weight: 500;
+    animation: slideY 3s ease-out;
 }
 
     /* ------------------- Team css ------------------- */
