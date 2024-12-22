@@ -135,8 +135,7 @@ nav {
   /* ------------------- Footer css ------------------- */
 
 .site-footer {
-    background: linear-gradient(to top, rgba(4, 16, 60, 0.9), rgba(2, 7, 20, 0.9));
-    color: white;
+    color: black;
     padding: 5rem 5%;
     backdrop-filter: blur(5px);
 }
@@ -147,7 +146,7 @@ nav {
     align-items: flex-start;
     max-width: 1400px;
     margin: 0 auto;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 3rem;
 }
   
@@ -159,12 +158,12 @@ nav {
   
 .footer-logo img {
     width: 50px;
-    filter: drop-shadow(0 0 2px white);
+    filter: drop-shadow(0 0 2px black);
 }
   
 .footer-logo h4 {
     font-size: 1.5rem;
-    color: #0066ff;
+    color: black;
 }
   
 .footer-links {
@@ -173,7 +172,7 @@ nav {
 }
   
 .footer-column h5 {
-    color: #0066ff;
+    color: black;
     margin-bottom: 1rem;
     font-size: 1.1rem;
 }
@@ -185,22 +184,25 @@ nav {
   
 .footer-column ul li {
     margin-bottom: 0.5rem;
+    color: gray;
+    font-weight: 500;
 }
   
 .footer-column a {
-    color: white;
+    color: gray;
     text-decoration: none;
     transition: color 0.3s;
+    font-weight: 500;
 }
   
 .footer-column a:hover {
-    color: #0066ff;
+    color: black;
 }
   
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     font-size: 0.9rem;
 }
   
@@ -208,6 +210,7 @@ nav {
 .footer-content {
     flex-direction: column;
     text-align: center;
+    display: block;
 }
   
 .footer-links {
