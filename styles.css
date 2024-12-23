@@ -491,7 +491,6 @@ a {
     }
   }
   
-  /* Tablettes et mobiles (max 768px) */
   @media (max-width: 768px) {
     nav {
       flex-wrap: wrap;
@@ -580,7 +579,6 @@ a {
      }
   }
   
-  /* Petits mobiles (max 480px) */
   @media (max-width: 480px) {
     .content h1 {
       font-size: 2rem;
@@ -643,7 +641,6 @@ a {
     }
   }
   
-  /* Très petits écrans (max 320px) */
   @media (max-width: 320px) {
     .content h1 {
       font-size: 1.8rem;
@@ -667,3 +664,32 @@ a {
       font-size: 2rem;
     }
   }
+
+  /* ------------------ Responsive css ------------------- */
+
+  /* ------------------ Animation css ------------------- */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; 
+}
+
+.nav-links a {
+  position: relative;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
